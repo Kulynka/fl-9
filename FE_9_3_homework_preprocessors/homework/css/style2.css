@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EBEBEC; }
+
+.main-wrapper {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+header {
+  display: flex;
+  align-items: flex-end; }
+  header img {
+    width: 380px; }
+
+/*Navigation*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 100%;
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  height: 60px; }
+
+header a {
+  text-decoration: none;
+  color: #E3842B; }
+
+/*Toolbar*/
+.toolbar {
+  text-align: right; }
+  .toolbar input {
+    height: 38px;
+    width: 200px;
+    border: 1px solid #E3842B;
+    margin: 20px 0;
+    padding-left: 15px; }
+  .toolbar ::placeholder {
+    color: #E3842B; }
+
+/*Postlist*/
+.post-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+
+.post-list article {
+  padding: 15px;
+  margin: 10px;
+  flex: 0 48%;
+  background-color: white; }
+  .post-list article img {
+    width: 100%; }
+
+.post-description {
+  color: #77A07F;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px; }
+
+.post-list div {
+  background-color: white; }
+  .post-list div h3 {
+    color: #2E755A;
+    text-transform: uppercase;
+    background-color: white; }
+  .post-list div p {
+    color: #667569;
+    line-height: 20px;
+    margin-bottom: 15px;
+    background-color: white; }
+
+/*section "about". Paragraphs*/
+#about h1 {
+  text-align: right;
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: #E3842B;
+  margin-right: 15px; }
+
+#about p {
+  color: #60857E;
+  line-height: 22px;
+  margin: 9px 4px; }
+
+.about img {
+  max-width: 100%;
+  margin-bottom: 70px; }
+
+/*Section "Contact me"*/
+.contact-form {
+  text-align: right; }
+  .contact-form h4 {
+    text-transform: uppercase;
+    margin-bottom: 22px; }
+
+#contact h1, h4 {
+  color: #E3842B; }
+
+.contact-form input, textarea {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px 25px;
+  border: 1px solid #757575; }
+
+.contact-form input[type=submit] {
+  background-color: #E3842B;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  border: none; }
+
+/*Footer*/
+footer {
+  margin-bottom: 10px; }
+
+footer span {
+  color: #6094ac;
+  font-size: 12px; }
