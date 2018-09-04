@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+.container {
+    width: 900px;
+    margin: auto;
+    color: black;
+    border: 1px solid black; 
+}
+
+.container h1, p {
+    text-align: center;
+    font-weight: normal;
+}
+#allert {
+    background: #bd082f;
+}
+.inputForm, #list {
+    font-size: 25px;
+    padding: 20px;
+}
+.inputForm {
+    margin: 0 20px;
+    padding: 10px 0 30px 0;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid black;
+}
+#list {
+    padding-bottom: 20px;
+}
+.action, .text {
+    display: inline-block;
+    width: 90%;
+}
+.deleteButton, .checkbox{
+    display: inline-block;
+    width: 5%;
+}
+.form {
+    width: 100%;
+}
+.form input {
+    border: none;
+    font-size: 25px;
+    padding: 7px 20px;
+}
+
+input:active {
+    border: none;
+}
+input, .deleteButton {
+    outline:none;
+}
+
+#inputTask {
+    border: 1px solid black;
+    color: #575454;
+    min-width: 750px;
+}
+.material-icons {
+    font-size: 30px;
+    font-weight: bold;
+}
+#taskButton {
+    margin-left: 10px;
+    height: 100%;
+}
+#taskButton {
+    padding: 0px 5px 8px 5px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.deleteButton {
+    background: inherit;
+    border: none;
+}
+.deleteButton i {
+    font-size: 40px;
+}
+#taskButton:hover {
+    background: white;
+    color: black;
+}
+.deleteButton:hover {
+    color: black;
+}
+.task {
+    padding: 0 10px;
+    margin: 5px 10px;
+    display: flex;
+}
+/* Click */
+.action i:nth-child(2) {
+    display: none;
+}
+.action.checked .hidden {
+    display: none;
+}
+.checked i:nth-child(2) {
+    display: block;
+}
+
+.task .text {
+    flex: 1 1 0;
+}
+            
+#list{
+    min-height: 50px;
+}
+#footer{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 0 0 3px 3px;
+    font-size: 20px;
+}
+#footer img {
+    width: 10%;
+}
+
+.task.over {
+  border: 2px dashed black;
+}
